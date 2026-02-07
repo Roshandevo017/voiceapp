@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Game Voice Chat</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#000000">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>Group Voice Chat</h2>
+
+<input id="username" placeholder="Enter Name">
+<input id="room" placeholder="Room Code">
+
+<button onclick="joinRoom()">Join Voice</button>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
